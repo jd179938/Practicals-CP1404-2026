@@ -1,5 +1,4 @@
 numbers = []
-total = 0
 for i in range(5):
     numbers.append(int(input("Number: ")))
 
