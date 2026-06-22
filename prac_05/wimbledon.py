@@ -1,7 +1,7 @@
 """
 Wimbledon
 Estimate: 30 minutes
-Actual: 25 minutes
+Actual: 60 minutes
 """
 
 
