@@ -1,3 +1,4 @@
+from prac_06 import programming_language
 from prac_06.programming_language import ProgrammingLanguage
 
 def main():
@@ -12,5 +13,10 @@ def main():
     print(python)
     print(visual_basic)
     print(ruby)
+
+    languages = [ruby, python, visual_basic]
+    for language in languages:
+        if language.is_dynamic():
+            print(language.name)
 
 main()
