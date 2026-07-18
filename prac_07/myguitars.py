@@ -13,5 +13,11 @@ def main():
     for guitar in guitars:
         print(guitar)
 
+    print("-------------------------------")
+
+    guitars.sort()
+    for guitar in guitars:
+        print(guitar)
+
 main()
 
